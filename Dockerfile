@@ -3,6 +3,7 @@ FROM php:5.6-apache
 RUN \
   apt-get update && \
   DEBIAN_FRONTEND=noninteractive apt-get install -y \
+  git \
   ant \
   php5-curl \
   amavisd-new \
